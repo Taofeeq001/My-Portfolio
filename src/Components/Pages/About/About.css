@@ -1,0 +1,51 @@
+.about{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.about-content{
+    display: flex;
+    width: 60%;
+    gap: 5rem;
+    align-items: center;
+}
+.about-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.about-text h2{
+    font-size: 30px;
+    font-weight:bold;
+    font-family: "Poppins";
+}
+.about-content p{
+    font-family: "Bai-Jamjuree";
+    line-height: 40px;
+    text-align: justify;
+    font-size: 20px;
+}
+.social-media{
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.social-media a{
+    text-decoration: none;
+    color:  black;
+}
+.social-media svg{
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    border-radius: 50%;
+}
+.social-media svg:hover{
+    background-color: #F26C4F;
+    cursor: pointer;
+    margin-top: -5px;
+    transition: 1s ease;
+}

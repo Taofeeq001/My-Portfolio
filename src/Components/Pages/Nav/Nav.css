@@ -1,0 +1,35 @@
+.hero{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #E8F1F9;
+}
+.navigation{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 25px;
+    align-items: center;
+    background-color: #E8F1F9;
+    /* position: fixed; */
+}
+.desktop-nav{
+    display: flex;
+    align-items: center;
+}
+.desktop-nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 20px 35px;
+}
+.desktop-nav a:hover{
+    color: rgb(148, 200, 218);
+    font-weight: bold;
+    transition: 2s ease;
+}
+.desktop-nav svg{
+    margin-left: 35px;
+    width: 30px;
+    height: 30px;
+}

@@ -1,24 +1,12 @@
 import React from "react";
 import './Hero.css'
-import {AiOutlineUnorderedList} from 'react-icons/ai'
-import picture from '../../Images/person.png'
-import Stars from "../../Images/star.png";
+import Stars from "../../../Images/star.png";
+import picture from '../../../Images/person.png'
+
 
 const Hero = ()=>{
     return(
         <div className="hero">
-            <nav>
-                <div>
-                    <h3>SimSuraj Dev</h3>
-                </div>
-                <div className="desktop-nav">
-                    <a href="">Home</a>
-                    <a href="">About</a>
-                    <a href="">Portfolio</a>
-                    <a href="">Contact Me</a>
-                    <AiOutlineUnorderedList/>
-                </div>
-            </nav>
             <div className="hero-content">
                 <div className="content-paragraph">
                     <div className="content-detail">
