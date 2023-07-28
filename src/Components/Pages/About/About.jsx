@@ -24,9 +24,9 @@ const About = () =>{
                         <a href=""><FaInstagram/></a>
                         <a href=""><AiOutlineLinkedin/></a>
                     </div>
-                    <div>
-                        <button><a href="">Hire Me</a></button>
-                        <button><a href="">Learn More</a></button>
+                    <div className="about-btn">
+                        <button className="hire"><a href="">Hire Me</a></button>
+                        <button className="learn-more"><a href="">Learn More</a></button>
                     </div>
                 </div>
             </div>

@@ -1,0 +1,69 @@
+.service-container{
+    display: flex;
+    width: 100%;
+    background-color: #E8F1F9;
+    padding: 4rem 0;
+
+    align-items: center;
+    justify-content: center;
+}
+.service-content{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 40px;
+}
+.service-content img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.map-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.mapper2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 0px 2px 0px grey;
+    padding: 10px 30px;
+    /* width: 80%; */
+    gap: 20px;
+    overflow: hidden;
+    transition: 2s ease-in-out;
+    border-radius: 30px;
+    justify-content: center;
+}
+.mapper2:hover{
+    background-color: #F26C4F;
+    transition: 2s ease-in-out;
+    cursor: pointer;
+}
+.mapper2 button{
+    padding: 15px 25px;
+    background-color: #F26C4F;
+    border: none;
+}
+.mapper2 button a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-family: "Poppins";
+}
+.mapper2 h1{
+    position: relative;
+    top: -80%;
+    right: -50%;
+    background-color: #F26C4F;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
