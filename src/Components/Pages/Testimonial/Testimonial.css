@@ -1,0 +1,26 @@
+.testimonial{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonial-container{
+    width: 63%;
+}
+.slider{
+    background-color: white;
+    border: 1px solid black;
+    text-align: justify;
+    padding: 10px 35px;
+}
+.slider img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.slider-top{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 15px;
+}
