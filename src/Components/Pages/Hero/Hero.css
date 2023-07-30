@@ -46,21 +46,30 @@
     left: 5%;
 }
 .stars img{
-    animation-name: anim;
-    animation-timing-function: 4s;
-    animation-iteration-count: infinite;
+    animation: 4s anim infinite;
     width: 150%;
 }
 @keyframes anim {
     0%{
-        transform: translateY(0%);
+        transform:translateX(0%);
     }
-    50%{
-        transform: translateY(50%);
+    20%{
+        transform: translateX(60%);
     }
     100%{
-        transform: translateY(0%);
+        transform: translateX(0%);
     }
+}
+
+@media screen and (max-width: 950px) {
+    .hero-content{
+        flex-direction: column-reverse;
+        padding-left: 0;
+    }
+    .stars{
+        display: none;
+    }
+
 }
 
 
