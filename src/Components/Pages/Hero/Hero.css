@@ -46,7 +46,9 @@
     left: 5%;
 }
 .stars img{
-    animation: 4s anim infinite;
+    animation-duration: 4s;
+    animation-name: anim;
+    animation-iteration-count: infinite;
     width: 150%;
 }
 @keyframes anim {
@@ -65,9 +67,27 @@
     .hero-content{
         flex-direction: column-reverse;
         padding-left: 0;
+        align-items: center;
     }
     .stars{
         display: none;
+    }
+    .content-detail{
+        align-content: center;
+    }
+    .content-paragraph{
+        width: 90%;
+        text-align: justify;
+        align-items: center;
+    }
+    .hero-content img{
+        width: 70%;
+    }
+    .content-paragraph button{
+        margin-bottom: 30px;
+    }
+    .content-detail h2{
+        font-size: x-large;
     }
 
 }
