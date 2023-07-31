@@ -12,9 +12,15 @@
     justify-content: center;
     opacity: 0.8;
     color: white;
+    
+}
+.work h1{
     text-shadow: 2px 2px 4px rgb(0, 0, 0.22);
-    font-size: 22px;
     font-weight: bold;
+}
+.work p{
+    text-shadow: 2px 2px 4px rgb(0, 0, 0.22);
+    font-size: larger;
 }
 .btn{
     padding: 15px 30px;
@@ -30,4 +36,17 @@
 .btn:hover{
     background-color: #7676D6;
     transition: 1.2s ease;
+}
+
+@media screen and (max-width: 950px) {
+    .work{
+        padding: 0 20px;
+    }
+    .work h1{
+        font-size: larger;
+    }
+    .work p{
+        font-size: 15px;
+        text-align: center;
+    }
 }

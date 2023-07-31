@@ -82,5 +82,8 @@
     .map-container{
         grid-template-columns: 1fr;
     }
+    .mapper2{
+        width: 97%;
+    }
 }
 
