@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     background-color: #E8F1F9;
-    height: 60vh;
+    padding: 3rem;
 }
 .testimonial-container{
     width: 63%;
@@ -36,4 +36,16 @@
     align-items: center;
     gap: 30px;
     margin-bottom: 15px;
+}
+
+@media screen and (max-width:950px) {
+    .testimonial{
+        padding: 3rem 10px;
+    }
+    .testimonial-container{
+        width: 100%;
+    }
+    .slider h2{
+        font-size: large;
+    }
 }

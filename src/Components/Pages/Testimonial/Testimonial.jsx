@@ -14,7 +14,7 @@ const Testimonial = () =>{
             <div className="testimonial-container">
                 <div className="test-heading">
                     <h1>My Testimonial</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum odit reprehenderit velit optio maxime autem, mollitia modi exercitationem distinctio at ullam doloribus iste quos laborum, similique enim incidunt alias rerum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum odit reprehenderit velit optio maxime autem, mollitia modi exercitationem distinctio.</p>
                 </div>
                 <div>
                     <Swiper className="swiper"
