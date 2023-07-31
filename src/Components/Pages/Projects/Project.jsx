@@ -7,14 +7,16 @@ const Project = ()=>{
     return(
         <div className="project">
             <div className="project-content">
-                    <h1>MY PROJECT</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolor vel. Totam earum exercitationem itaque nemo, voluptates?</p>
+                <h1>MY PROJECT</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, dolor vel.</p>
+                
                 <div className="btns">
                     <button>All</button>
                     <button>Web Design</button>
                     <button>Web Development</button>
                     <button>App development</button>
                 </div>
+                
                 <div className="done-proj">
                     {
                         Data.map((data)=>{
