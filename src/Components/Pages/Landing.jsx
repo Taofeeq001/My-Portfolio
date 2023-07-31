@@ -6,6 +6,7 @@ import Services from "./Services/Services";
 import Work from "./Work/Work";
 import Project from "./Projects/Project";
 import Testimonial from "./Testimonial/Testimonial";
+import Footer from "./Footer/Footer";
 
 
 const Landing = ()=>{
@@ -18,6 +19,7 @@ const Landing = ()=>{
             <Work/>
             <Project/>
             <Testimonial/>
+            <Footer/>
         </div>
     )
 }

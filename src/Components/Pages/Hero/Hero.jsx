@@ -26,7 +26,7 @@ const Hero = ()=>{
                         </div>
                         <p data-aos = "fade-in">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam reprehenderit perferendis dolore. Voluptas a quaerat animi veritatis illo voluptatibus similique eligendi dolorem veniam magnam. Est facilis nam aut molestiae earum!</p>
                     </div>
-                    <div data-aos = "slide-up">
+                    <div data-aos = "fade-in">
                         <button><a href="">DOWNLOAD CV</a></button>    
                     </div>
                 </div>
